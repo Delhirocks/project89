@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE MATHS QUIZ GAME</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="quiz_game_login.js"></script>
+<BOdy>
+
+
+
+
+
+
+<div class="container">
+	<h1 style="text-align: center;">THE MATHS QUIZ GAME</h1>
+	<h2 style="text-align: center;">THE MATHS QUIZ GAME</h2>
+	<h2 id="score">Score : </h2>
+
+	<button class="btn btn-warning"onclick="UpdateScore();">increase point</button>
+	<br>
+	<br>
+
+	<button class="btn btn-success"onclick="SaveScore();">save point</button>
+	<br>
+	<br>
+
+	<button class="btn btn-info"onclick="nextpage();">Next page</button>
+</div>
+
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+	<h3> player 1 Login for the game</h3>
+	<label>YOUR NAME:</label>
+	<input type="text" id="player1_name_input" class="form-control" placeholder="player 1 Name">
+	<br>
+</div>
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+	<h3> player 2_name_input</h3>
+	<label>YOUR FRIEND NAME</label>
+	<input type="text" id="player2_name_input" class="form-control" placeholder="player 2 Name">
+	<br>
+</div>
+<button style="width:30%" class="btn btn-primary" onclick="addUsar()">LET'S GO</button>
+</BOdy>
